@@ -120,7 +120,7 @@ server.post('/payment', (req, res) => {
     });
 });
 
-server.use(express.static('frontend/src'))
+server.use(express.static('../frontend/src/App.js'))
 
 server.listen(3001, () => {
   console.log('Server escuchando en puerto: 3001');
