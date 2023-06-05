@@ -1,0 +1,49 @@
+.itemCountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin-top: 0.5em;
+    padding: 0.2em;
+    border-radius: 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.item-count{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.item-count p{
+    user-select: none;
+}
+.item-count button{
+    width: 25px;
+    height: 100%;
+    background-color: var(--colorLogo);
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    
+
+}
+.item-count button:hover{
+    background-color: var(--colorLetraFuerte);
+    
+}
+
+.agregar-al-carrito{
+    padding: 0.5em;
+    background-color: var(--colorLogo);
+    color: #fff;
+    border-radius: 0.2em;
+    border: none;
+    font-size: 15px;
+}
+.agregar-al-carrito:hover{
+    background-color: var(--colorLetraFuerte);
+}
+button {
+    cursor: pointer;
+    user-select: none;
+}

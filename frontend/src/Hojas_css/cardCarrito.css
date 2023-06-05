@@ -1,0 +1,15 @@
+.card-carrito-container{
+
+    position: relative;
+    
+}
+.numerito{
+    position: absolute;
+    right: 10%;
+    top: -20%;
+    font-size: 12px;
+    padding: 0.2em 0.5em;
+    border-radius: 50%;
+    font-weight: 700;
+    color:var(--colorLetraFuerte);
+}

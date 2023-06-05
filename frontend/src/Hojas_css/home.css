@@ -1,0 +1,73 @@
+.slider-container {
+    width: 100%;
+    margin-top: 2em;
+}
+.slider-container img{
+    width: 100%;
+}
+/*Para que aparezcan los dots*/
+.glide__bullets {
+ position: static;
+ width: 50%;
+ justify-content: center;
+ align-items: center;
+ transform: translateX(50%);
+}
+  
+  .glide__bullet {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el dot activo */
+  .glide__bullet.glide__bullet--active {
+    background-color: #000;
+  }
+  
+.productos-destacados img{
+    width: 100%;
+}
+.productos-destacados-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+.productos{ /*Este es el contenedor de los productos*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.producto-detalles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.producto-detalles h4{
+    font-weight: 500;
+    color: var(--colorLetra);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.producto-detalles p{
+    color: var(--colorLetra);
+    font-weight: 500;
+}
+.link-ver-todos{
+    text-decoration: none;
+    color: #fff;
+}
+.ver-todos{
+    margin-top: 2em;
+    background-color: var(--colorLogo);
+    width: 90%;
+    padding: 0.5em 1.2em;
+    border-radius: 0.5em;
+    border: 2px solid var(--colorLetra);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    margin-bottom: 2em;
+}

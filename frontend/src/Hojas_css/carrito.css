@@ -1,0 +1,67 @@
+.main-title{
+    color: var(--colorLetraFuerte);
+    font-size: 25px;
+    margin-top: 1.2em;
+}
+.cart-vacio{
+    color: var(--colorLetraFuerte);
+}
+.item-cart-container img{
+    width: 6em;
+}
+.item-cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 90%;
+
+}
+.item-cart-container hr{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    
+}
+.item-cart-container h2{
+    font-size: 16px;
+    color: var(--colorLetra);
+    font-weight: 500;
+}
+.item-cart-container p{
+    font-size: 14px;
+}
+.item-cart-container p span{
+    font-weight: 700;
+    color: var(--colorLetraFuerte);
+}
+.price{
+    margin-bottom: 0.5em;
+}
+.total-cart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 2em;
+    width: 100%;
+    margin-top: 1.5em;
+}
+.precio-total{
+    font-size: 18px;
+    color: var(--colorLetraFuerte);
+}
+.buttons-container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 15em;
+    margin-top: 0.5em;
+}
+.buttons-container button{
+    background-color: var(--colorLetraFuerte);
+    color: #fff;
+    border-radius: 0.5em;
+    border: none;
+    padding: 0.5em;
+}

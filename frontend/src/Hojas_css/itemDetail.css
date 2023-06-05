@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+}
+.container img{
+    width: 100%;
+}
+.seguir-comprando{
+    width: 16em;
+    background-color: var(--colorLetraFuerte);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    color: #fff;
+    margin-top: 0.5em;
+    font-size: 15px;
+    border: none;
+}

@@ -1,0 +1,196 @@
+[
+    {
+        "id" :1,
+        "titulo" : "Mate pampa 1",
+        "precio" : 2500,
+         "categoria": {
+            "nombre": "mates-pampa",
+            "id": "mates"
+        },
+        "imagen" : "../images/pampa/PAMPA_1.webp"
+    },
+    
+    
+    {
+        "id" :2,
+        "titulo" : "Mate pampa 2",
+        "precio" : 2500,
+         "categoria": {
+            "nombre": "mates-pampa",
+            "id": "mates"
+        },
+        "imagen" : "../images/pampa/PAMPA_2.webp"
+    },
+    {
+        "id" : 3,
+        "titulo" : "Mate pampa 3",
+        "precio" : 2500,
+         "categoria": {
+            "nombre": "mates-pampa",
+            "id": "mates"
+        },
+        "imagen" : "../images/pampa/PAMPA_3.webp"
+    },
+    {
+        "id" : 4,
+        "titulo" : "Mate pampa 4",
+        "precio" : 2500,
+         "categoria": {
+            "nombre": "mates-pampa",
+            "id": "mates"
+        },
+        "imagen" : "../images/pampa/PAMPA_4.webp"
+    },
+    {
+        "id" : 5,
+        "titulo" : "Mate pampa 5",
+        "precio" : 2500,
+         "categoria": {
+            "nombre": "mates-pampa",
+            "id": "mates"
+        },
+        "imagen" : "../images/pampa/PAMPA_5.webp"
+    },
+    {
+        "id" : 6,
+        "titulo" : "Mate pampa 6",
+        "precio" : 2500,
+         "categoria": {
+            "nombre": "mates-pampa",
+            "id": "mates"
+        },
+        "imagen" : "../images/pampa/PAMPA_6.webp"
+    },
+    {
+        "id" : 7,
+        "titulo" : "Mate pampa 7",
+        "precio" : 2500,
+         "categoria": {
+            "nombre": "mates-pampa",
+            "id": "mates"
+        },
+        "imagen" : "../images/pampa/PAMPA_7.webp"
+    },
+    {
+        "id" : 8,
+        "titulo" : "Mate pampa 8",
+        "precio" : 2500,
+         "categoria": {
+            "nombre": "mates-pampa",
+            "id": "mates"
+        },
+        "imagen" : "../images/pampa/PAMPA_8.webp"
+    },
+    {
+        "id":9,
+        "titulo": "Mate Imperial 1",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_1.webp"
+    },
+    {
+        "id":10,
+        "titulo": "Mate Imperial 2",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_2.webp"
+    },
+    {
+        "id":11,
+        "titulo": "Mate Imperial 3",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_3.webp"
+    },
+    {
+        "id":12,
+        "titulo": "Mate Imperial 4",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_4.webp"
+    },
+    {
+        "id":13,
+        "titulo": "Mate Imperial 5",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_5.webp"
+    },
+    {
+        "id":14,
+        "titulo": "Mate Imperial 6",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_6.webp"
+    },
+    {
+        "id":15,
+        "titulo": "Mate Imperial 7",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_7.webp"
+    },
+    {
+        "id":16,
+        "titulo": "Mate Imperial 8",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_8.webp"
+    },
+    {
+        "id":17,
+        "titulo": "Mate Imperial 9",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_9.webp"
+    },
+    {
+        "id":18,
+        "titulo": "Mate Imperial 10",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_10.webp"
+    },
+    {
+        "id":19,
+        "titulo": "Mate Imperial 11",
+        "precio":3200,
+        "categoria": {
+            "nombre": "mates-imperial",
+            "id":"mates"
+        },
+        "imagen" : "../images/imperial/IMPERIAL_11.webp"
+    }
+
+
+]

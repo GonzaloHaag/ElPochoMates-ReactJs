@@ -1,0 +1,7 @@
+Luego del npx create-react-app dentro de la carpeta frontend, creamos la
+carpeta backend y le damos npm init --y en la consola(cd backend)
+Y luego dentro de la carpeta backend, npm i express y lo que necesitemos
+Todo dentro de esta carpeta
+
+Luego en la carpeta frontend(cd frontend) le damos npm start y listo
+

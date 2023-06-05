@@ -1,0 +1,116 @@
+.navbar{
+    display: flex;
+    padding: 0.5em 2em;
+}
+
+.navbar ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-transform: uppercase;
+}
+.desplegarCategoriasDeProductos{
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-transform: uppercase;
+    user-select: none;
+
+}
+.navbar-categories{
+    background-color: var(--colorLogo);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    z-index: 2;
+}
+.navbar-categories ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 2rem;
+    gap: 2.5rem;
+   
+}
+.navbar-categories ul li{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-inline: 1.2rem;
+}
+.nav-categories-link{
+    color: #fff;
+    text-decoration: none;
+}
+
+li hr{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 2rem;
+}
+
+/*Menu de las categorias de mates*/
+.navbar-categories-mates{
+    position: fixed;
+    background-color: var(--colorLogo);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transform: translateX(100%);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s; /*Ver porque no toma el transition*/
+    padding-top: 2em;
+}
+.navbar-categories-mates.active{
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+    
+}
+.navbar-categories-mates svg{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    margin-bottom: 2em;
+}
+/*Al primer scroll se le agregara la clase fixed a navbar, entonces*/
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+
+  }

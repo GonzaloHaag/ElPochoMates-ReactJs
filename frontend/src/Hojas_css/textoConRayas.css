@@ -1,0 +1,19 @@
+.texto-con-rayas {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+  }
+  
+  .raya {
+    flex-grow: 1;
+    height: 1px;
+    background-color: var(--colorLetra);
+    margin: 0 10px;
+  }
+  
+  .contenido {
+    font-size: 20px;
+    color:var(--colorLetra);
+    font-weight: 500;
+    
+  }
