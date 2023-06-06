@@ -81,8 +81,9 @@ const Navbar = () => {
                                       }
                                       <hr/>    
                             </li>
-                            <li onClick={handleCloseMenu}>ACCESORIOS <hr/></li>
-                            <li onClick={handleCloseMenu}>COMBOS <hr/></li>
+                            <li onClick={handleCloseMenu}><Link className='nav-categories-link' to="/productos/combos">COMBOS</Link> <hr/></li>
+                            <li><Link onClick={handleCloseMenu} className='nav-categories-link' to='productos/accesorios'>ACCESORIOS</Link> <hr/></li>
+                            
                         </ul>
                     </nav>
                 )

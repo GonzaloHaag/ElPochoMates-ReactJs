@@ -42,11 +42,14 @@ const Carrito = () => {
                 <div className='item-cart-container' key={prod.id}>
                
                 <img src={prod.imagen} alt={prod.titulo} />
+                
                 <h2>{prod.titulo}</h2>
                 <p>Cantidad : <span>{prod.cantidad}</span></p>
+                
                 <p className='price'>Precio: <span>${prod.precio * prod.cantidad}</span></p>
                 <hr/>
                 </div>
+                
     
                 
             ))

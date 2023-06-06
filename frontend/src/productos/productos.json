@@ -1,85 +1,85 @@
 [
     {
         "id" :1,
-        "titulo" : "Mate pampa 1",
+        "titulo" : "Mate pampa blanco",
         "precio" : 2500,
          "categoria": {
             "nombre": "mates-pampa",
             "id": "mates"
         },
-        "imagen" : "../images/pampa/PAMPA_1.webp"
+        "imagen" : "../images/pampa/PAMPA_BLANCO.jpg"
     },
     
     
     {
         "id" :2,
-        "titulo" : "Mate pampa 2",
+        "titulo" : "Mate pampa blanco BA",
         "precio" : 2500,
          "categoria": {
             "nombre": "mates-pampa",
             "id": "mates"
         },
-        "imagen" : "../images/pampa/PAMPA_2.webp"
+        "imagen" : "../images/pampa/PAMPA_BLANCO_BA.jpg"
     },
     {
         "id" : 3,
-        "titulo" : "Mate pampa 3",
+        "titulo" : "Mate pampa lila",
         "precio" : 2500,
          "categoria": {
             "nombre": "mates-pampa",
             "id": "mates"
         },
-        "imagen" : "../images/pampa/PAMPA_3.webp"
+        "imagen" : "../images/pampa/PAMPA_LILA.jpg"
     },
     {
         "id" : 4,
-        "titulo" : "Mate pampa 4",
+        "titulo" : "Mate pampa Naranja",
         "precio" : 2500,
          "categoria": {
             "nombre": "mates-pampa",
             "id": "mates"
         },
-        "imagen" : "../images/pampa/PAMPA_4.webp"
+        "imagen" : "../images/pampa/PAMPA_NARANJA.jpg"
     },
     {
         "id" : 5,
-        "titulo" : "Mate pampa 5",
+        "titulo" : "Mate pampa negro",
         "precio" : 2500,
          "categoria": {
             "nombre": "mates-pampa",
             "id": "mates"
         },
-        "imagen" : "../images/pampa/PAMPA_5.webp"
+        "imagen" : "../images/pampa/PAMPA_NEGRO.jpg"
     },
     {
         "id" : 6,
-        "titulo" : "Mate pampa 6",
+        "titulo" : "Mate pampa rosa",
         "precio" : 2500,
          "categoria": {
             "nombre": "mates-pampa",
             "id": "mates"
         },
-        "imagen" : "../images/pampa/PAMPA_6.webp"
+        "imagen" : "../images/pampa/PAMPA_ROSA.jpg"
     },
     {
         "id" : 7,
-        "titulo" : "Mate pampa 7",
+        "titulo" : "Mate pampa lila",
         "precio" : 2500,
          "categoria": {
             "nombre": "mates-pampa",
             "id": "mates"
         },
-        "imagen" : "../images/pampa/PAMPA_7.webp"
+        "imagen" : "../images/pampa/PAMPA_LILA.jpg"
     },
     {
         "id" : 8,
-        "titulo" : "Mate pampa 8",
+        "titulo" : "Mate pampa naranja",
         "precio" : 2500,
          "categoria": {
             "nombre": "mates-pampa",
             "id": "mates"
         },
-        "imagen" : "../images/pampa/PAMPA_8.webp"
+        "imagen" : "../images/pampa/PAMPA_NARANJA.jpg"
     },
     {
         "id":9,
@@ -190,6 +190,86 @@
             "id":"mates"
         },
         "imagen" : "../images/imperial/IMPERIAL_11.webp"
+    },
+    {
+        "id":20,
+        "titulo": "Combo Negro",
+        "precio":3600,
+        "categoria" : {
+            "nombre":"combos",
+            "id" : "combos"
+        },
+        "imagen" : "../images/combos/combo-negro.jpg"
+    },
+      {
+        "id":21,
+        "titulo": "Combo Rosa",
+        "precio":3600,
+        "categoria" : {
+            "nombre":"combos",
+            "id" : "combos"
+        },
+        "imagen" : "../images/combos/combo-rosa.jpg"
+    },
+    {
+        "id":22,
+        "titulo": "Combo Naranja",
+        "precio":3600,
+        "categoria" : {
+            "nombre":"combos",
+            "id" : "combos"
+        },
+        "imagen" : "../images/combos/combo-naranja.jpg"
+    },
+    {
+        "id":23,
+        "titulo": "Combo Lila",
+        "precio":3600,
+        "categoria" : {
+            "nombre":"combos",
+            "id" : "combos"
+        },
+        "imagen" : "../images/combos/combo-lila.jpg"
+    },
+    {
+        "id":24,
+        "titulo": "Combo Grisacéo",
+        "precio":3600,
+        "categoria" : {
+            "nombre":"combos",
+            "id" : "combos"
+        },
+        "imagen" : "../images/combos/combo-grisaceo.jpg"
+    },
+    {
+        "id":25,
+        "titulo": "Combo Blanco",
+        "precio":3600,
+        "categoria" : {
+            "nombre":"combos",
+            "id" : "combos"
+        },
+        "imagen" : "../images/combos/combo-blanco.jpg"
+    },
+    {
+        "id":26,
+        "titulo": "Combo Azul",
+        "precio":3600,
+        "categoria" : {
+            "nombre":"combos",
+            "id" : "combos"
+        },
+        "imagen" : "../images/combos/combo-azul.jpg"
+    },
+    {
+        "id":27,
+        "titulo": "Combo MM negro",
+        "precio":3600,
+        "categoria" : {
+            "nombre":"combos",
+            "id" : "combos"
+        },
+        "imagen" : "../images/combos/combo-mm-negro.jpg"
     }
 
 

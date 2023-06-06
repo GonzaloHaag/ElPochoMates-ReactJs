@@ -35,6 +35,9 @@ useEffect(() => {
     case '/productos/mates-imperial' : 
     setTituloHeader('Mates Imperiales');
     break;
+    case '/productos/combos' : 
+    setTituloHeader('Combos');
+    break;
     case '/contacto':
       setTituloHeader('Contacto');
       break;

@@ -10,17 +10,24 @@
     width: 6em;
 }
 .item-cart-container{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 90%;
+    width: 90%; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0.6em;
+    padding-right: 0.2em;
 
 }
+
 .item-cart-container hr{
     position: absolute;
     width: 100%;
+    height: 2vh;
     bottom: 0;
     
 }
@@ -35,9 +42,6 @@
 .item-cart-container p span{
     font-weight: 700;
     color: var(--colorLetraFuerte);
-}
-.price{
-    margin-bottom: 0.5em;
 }
 .total-cart-container{
     display: flex;

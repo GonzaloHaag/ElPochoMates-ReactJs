@@ -13,9 +13,7 @@ const ItemListContainer = () => {
 const [productos,setProductos] = useState([]);
 const categoriaUrl = useParams().categoria; //Para agarrar la categoria que viene en la url
 const location = useLocation();
-const url = location.pathname;
-const esPaginaProductos = url.includes('/productos'); //Si esto es true, significa que estoy en la pagina de productos -> SUPER INTERESANTE, PODEMOS HACER MUCHAS COSAS
-const esPaginaDeMates = url.includes('/productos/mates');
+const url = location.pathname; //Da la url donde estoy parado, por ejemplo /productos -> Podemos hacer muchas cosas
 const [cargando,setCargando] = useState(true);
 
 
@@ -35,25 +33,26 @@ useEffect(()=> {
             )
            
         }
-        else if(esPaginaProductos) {
-            setProductos(res); //Muestro los primeros 8 para cuando le den a cargar mas productos muestre todos
-           
+        else if(url === '/productos') {
+            setProductos(res); //Para mostrar todos los productos
         }
-        else if(esPaginaDeMates) {
+        else if(url === '/productos/mates') {
             setProductos(
-                res.filter((prod)=> prod.categoria.id === 'mates')
+                res.filter((prod) => prod.categoria.id === 'mates')
+
                 /*Aca quiero mostrar todos los productos que pertenecen a mate*/
             )
+           
         }
         else{
-            setProductos(res.slice(0,8)); //Si no viene nada en la url, que me muestre todos los productos
+            setProductos(res.slice(0,8));
             //Para mostrar los primeros 8 en la home y cuando pone ver todos los productos que muestre todos
             
         }
        
         setCargando(false); // Una vez que se cargan los productos, se actualiza el estado de carga
     })
- },[categoriaUrl,esPaginaDeMates,esPaginaProductos]);
+ },[categoriaUrl,url]);
 
 
   return (
